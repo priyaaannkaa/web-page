@@ -1,9 +1,6 @@
 import React from 'react';
-import { faFacebook } from '@fortawesome/free-brands-svg-icons';
-import { faInstagram } from '@fortawesome/free-brands-svg-icons';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Link } from 'react-router-dom';
 
 function HomePage() {
     return (
@@ -15,18 +12,22 @@ function HomePage() {
                         <span> Priyanka Bajaj.</span>
                     </h1>
                     <p className="h-sub-text">
-                        This is test line!
+                        Detail-oriented, motivated and bright student looking for an opportunity to work in your esteemed organization to bridge theory with
+                        practical and real-world experience.
                     </p>
                     <div className="icons">
-                        <Link className= "icon-holder">
+                        <a className= "icon-holder" href ="https://www.linkedin.com/in/priyanka-bajaj-435600211/">
                             <FontAwesomeIcon className= 'icon li' icon={faLinkedin} />
-                        </Link>
-                        <Link className= "icon-holder">
+                        </a>
+                        <a className= "icon-holder" href ="https://github.com/priyaaannkaa">
+                            <FontAwesomeIcon className= 'icon gh' icon={faGithub} />
+                        </a>
+                        <a className= "icon-holder" href ="https://www.facebook.com/PriyankaBajaj1906/">
                             <FontAwesomeIcon className= 'icon fb' icon={faFacebook} />
-                        </Link>
-                        <Link className= "icon-holder">
+                        </a>
+                        <a className= "icon-holder" href ="https://www.instagram.com/priyaaannkaa/">
                             <FontAwesomeIcon className= 'icon ig' icon={faInstagram} />
-                        </Link>
+                        </a>
                     </div>
                 </header>
             </div>

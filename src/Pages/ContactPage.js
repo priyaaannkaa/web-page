@@ -27,7 +27,7 @@ function ContactPage() {
                 <div className="contact-sect">
                     <ContactItem icon={phone} text1={"+1 647-518-9155"} title="Phone"/>
                     <ContactItem icon={email} text1={"bajajpriyanka619@gmail.com"} title="E-mail"/>
-                    <ContactItem icon={location} text1={'161 University Ave W, Waterloo, ON N2L3E5, Canada'} title="Address"/>
+                    <ContactItem icon={location} text1={'161 University Ave W, Waterloo, ON N2L 3E5, Canada'} title="Address"/>
                 </div>
             </div>
         </div>

@@ -26,6 +26,9 @@ function App() {
       <div className="main-content">
           <div className="content">
             <Switch>
+            <Route path="/web-page" exact>
+                <HomePage />
+              </Route>
               <Route path="/" exact>
                 <HomePage />
               </Route>
